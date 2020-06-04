@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoリスト</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper text-center">
+    <header>
+    <h1 class="title">ToDoリスト</h1>
+    </header>
+    <div id="time">
+        <p><span id="month"></span>月<span id="day"></span>日  <span id="hour"></span>時<span id="minute"></span>分<span id="sec"></span></p>
+    </div>
+    <div id="place"></div>
+    <div id="now">
+        <div id="weather"></div>
+    </div>
+    <div class="input_div">
+        <input class="input" type="text" placeholder="やるべきこと" >
+        <button class="addButton"><i class="fas fa-plus"></i></button>  
+    </div>
+    <div class="container">
+        <!-- <div class="item">
+            <input type="text" class="item_imput" disabled>
+            <button class="editButton">編集</button>
+            <button class="removeButton">削除</button>
+        </div> -->
+    </div>
+</div>
+    <script src="index.js"></script>
+    <script src="jquery-3.4.1.min.js"></script>
+</body>
+</html>

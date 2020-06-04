@@ -1,0 +1,36 @@
+.description img{
+    width: 40px;
+    height: 40px;
+}
+.temp{
+    margin-left: 0.08em;
+}
+
+.item{
+    margin-left: 4.3em;
+    margin-top: 2vh;
+}
+.addButton{
+    background-color: lime;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+.editButton{
+    margin-left: 0.5vw;
+    background-color: lime;
+}
+.removeButton{
+    margin-left: 0.2vw;
+    background-color: #E60;
+}
+
+.item_input{
+    border: none;
+    outline: none;
+    border-bottom: 4px solid blue;
+}
+.input{
+    border-radius: 50px;
+    outline: none;
+}
